@@ -18,7 +18,7 @@ public class ClientInitializer2 extends Application {
 
     @Override
     public void start(Stage primaryStage) throws IOException {
-        Scene scene = new Scene(FXMLLoader.load(getClass().getResource("LoginForm.fxml")));
+        Scene scene = new Scene(FXMLLoader.load(getClass().getResource("view/LoginForm.fxml")));
         scene.setFill(TRANSPARENT);
         scene.getStylesheets().add("Client/styles/style.css");
         primaryStage.setScene(scene);

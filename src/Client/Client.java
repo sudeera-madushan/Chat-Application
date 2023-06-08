@@ -1,9 +1,9 @@
 package Client;
 
+import Client.controller.ChatFormController;
 import javafx.scene.control.ScrollPane;
 import javafx.scene.layout.VBox;
 
-import java.awt.*;
 import java.io.*;
 import java.net.Socket;
 
